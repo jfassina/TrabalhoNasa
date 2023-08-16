@@ -1,0 +1,54 @@
+body{
+background-color: #363642;
+
+}
+.nasa{
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    width: 780px;
+    height: 200px;
+    background-image: radial-gradient(#610000, #363642fb 70%);
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: image-set(../../imagens/fundo.png);
+}
+
+#botao{
+
+    background-color: #610000;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    transition: transform 150ms ease-in-out;
+
+}
+#botao:hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+    background-color:#2e0000;
+
+
+}
+table{
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#letraG{
+
+font-size: 30px
+
+}
