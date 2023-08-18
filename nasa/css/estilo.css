@@ -18,7 +18,9 @@ background-color: #363642;
 body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: image-set(../../imagens/fundo.png);
+    background:url("../imagens/fundo.png") right top fixed;
+
+
 }
 
 #botao{
@@ -50,5 +52,52 @@ table{
 #letraG{
 
 font-size: 30px
+
+}
+#letraM{
+
+    font-size: 20px;
+}
+.LinkL{
+
+    background-color: #363642;
+    border: none;
+    color: red;
+    font-size: 45px;
+    height: 29px;
+    width: 51px;
+    transition: transform 100ms ease-in-out;
+
+
+}
+.LinkL:hover{
+    color: red;
+    cursor: pointer;
+    background-color:#30303a;
+    transform: scale(1.1);
+    
+
+}
+.LinkA{
+
+    background-color: #363642;
+    color: red;
+    border: none;
+    font-size: 25px;
+    transition: transform 100ms ease-in-out;
+
+}
+.LinkA:hover{
+    cursor: pointer;
+    background-color: #30303a;
+    transform: scale(1.1);
+    color: red;
+
+}
+div{
+
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #363642;
 
 }
