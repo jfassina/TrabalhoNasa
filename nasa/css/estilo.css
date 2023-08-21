@@ -1,5 +1,4 @@
-
-.nasa{
+.nasa {
     color: red;
     font-size: 100px;
     text-align: center;
@@ -7,64 +6,69 @@
 
 
 }
-.gradiente{
-    width: 780px;
+
+.gradiente {
+    width: 100%;
     height: 200px;
-    background-image: linear-gradient(#610000,#36364200);
+    background-image: linear-gradient(#610000, #36364200 60%);
     margin-right: auto;
     margin-left: auto;
 
 }
 
-body{
+body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background:url("../imagens/fundo.png") right top fixed;
+    background: url("../imagens/foguete.jpg") right top fixed;
     background-color: #36364248;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 200%;
+    background-size: 150%;
 
 
 }
 
-#botao{
+#botao {
 
     background-color: #610000;
     border-radius: 5px;
     color: white;
-    width: 150px;
+    width: 250px;
     height: 60px;
-    font-size: 20px;
+    font-size: 30px;
     border: none;
     transition: transform 150ms ease-in-out;
 
 }
-#botao:hover{
-    transform: scale(1.1);
+
+#botao:hover {
+    transform: scale(1.22);
     color: white;
     cursor: pointer;
-    background-color:#2e0000;
+    background-color: #2e0000;
 
 
 }
-table{
+
+table {
 
     margin-right: 50%;
     margin-left: 50%;
 
 }
-#letraG{
 
-font-size: 30px
+#letraG {
 
+    font-size: 30px
 }
-#letraM{
+
+#letraM {
 
     font-size: 20px;
 }
-.LinkL{
+
+.LinkL {
 
     background-color: #36364200;
     border: none;
@@ -76,15 +80,17 @@ font-size: 30px
 
 
 }
-.LinkL:hover{
+
+.LinkL:hover {
     color: red;
     cursor: pointer;
-    background-color:#36364289;
+    background-color: #36364289;
     transform: scale(1.1);
-    
+
 
 }
-.LinkA{
+
+.LinkA {
 
     background-color: #36364200;
     color: red;
@@ -93,14 +99,16 @@ font-size: 30px
     transition: transform 100ms ease-in-out;
 
 }
-.LinkA:hover{
+
+.LinkA:hover {
     cursor: pointer;
     background-color: #36364289;
     transform: scale(1.1);
     color: red;
 
 }
-div{
+
+div {
 
     margin-left: 25%;
     margin-right: 25%;
