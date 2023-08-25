@@ -17,7 +17,7 @@
 }
 
 body {
-    color: white;
+    color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     background: url("../imagens/foguete.jpg") right top fixed;
     background-color: #36364248;
@@ -33,7 +33,7 @@ body {
 
     background-color: #610000;
     border-radius: 5px;
-    color: white;
+    color: aliceblue;
     width: 250px;
     height: 60px;
     font-size: 30px;
@@ -44,7 +44,7 @@ body {
 
 #botao:hover {
     transform: scale(1.22);
-    color: white;
+    color: aliceblue;
     cursor: pointer;
     background-color: #2e0000;
 
