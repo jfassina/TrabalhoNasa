@@ -115,3 +115,7 @@ div {
     background-color: #36364289;
 
 }
+iframe{
+    border: none;
+    border-radius: 10px;
+  }
