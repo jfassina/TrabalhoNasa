@@ -6,46 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="../../css/contato.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="caixa">
-        <h2>Seja um Astronauta ainda hoje!</h2>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img id="logo" src="../../imagens/logoNasa.png" alt="Logo da Nasa"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav me-auto">
 
-        <form><br>
-            <div class="margem">
-
-                <label for="nome">Austronauta:</label>
-                <input type="text" id="nome" name="nome" required>
-
-            </div><br>
-
-            <div class="margem">
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-            </div><br><br>
-
-            <button type="submit">Enviar</button>
-
-        </form>
-        
-        <div class="social-links">
-    <br>
-
-            <a href="https://www.instagram.com/nasa/" class="social-icon" target="_blank"><img src="../../imagens/logo-insta.png" alt="Logo do Instagram" ></a>
-          </div>
-      
-
-    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Voltar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../lua/lua.html">Lua</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
-    <table class="gradiente" cellspacing="150">
-        <td><a href="../../index.html"> <button id="botao"> <b>HOME</b> </button> </a></td>
-        <td><a href="../lua/lua.html"> <button id="botao"> <b>LUA</b> </button> </a></td>
-    </table>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+
+            </div>
+
+            <div class="col-md-4">
+
+                
+                    <div class="caixa">
+                        <h2>Seja um Astronauta ainda hoje!</h2>
+
+                        <form><br>
+                            <div class="margem">
+
+                                <label for="nome">Austronauta:</label>
+                                <input type="text" id="nome" name="nome" required>
+
+                            </div><br>
+
+                            <div class="margem">
+
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+
+                            </div><br><br>
+
+                            <button type="submit">Enviar</button>
+
+                        </form>
+
+                        <div class="links">
+                            <br>
+
+                            <a href="https://www.instagram.com/nasa/" target="_blank"><img
+                                    src="../../imagens/logo-insta.png" alt="Logo do Instagram" class="icone"></a>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4"></div>
+        </div>
+    
 
 
 </body>

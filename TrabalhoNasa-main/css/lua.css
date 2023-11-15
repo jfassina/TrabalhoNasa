@@ -6,41 +6,17 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
-    background-size: 150%;
+    background-size: cover;
+
 }
 
-.fundo {
-    margin-left: 25%;
-    margin-right: 24%;
-    background-color: #36364289;
-}
 
 #letraG {
 
     font-size: 30px
 }
 
-#botao {
 
-    background-color: #610000;
-    border-radius: 5px;
-    color: white;
-    width: 250px;
-    height: 60px;
-    font-size: 30px;
-    border: none;
-    transition: transform 150ms ease-in-out;
-
-}
-
-#botao:hover {
-    transform: scale(1.22);
-    color: white;
-    cursor: pointer;
-    background-color: #2e0000;
-
-
-}
 
 table {
 
@@ -49,23 +25,18 @@ table {
 
 }
 
+@font-face {
+    font-family: "Kanit";
+    src: url(../fontes/Kanit-Medium.ttf);
+}
+
 .nasa {
     color: red;
-    font-size: 100px;
+    font-size: 122px;
     text-align: center;
-
-
-
+    font-family: Kanit;
 }
 
-.gradiente {
-    width: 100%;
-    height: 200px;
-    background-image: linear-gradient(#610000, #36364200);
-    margin-right: auto;
-    margin-left: auto;
-
-}
 h2{
     text-align: center;
     font-size: 60px;
@@ -82,3 +53,29 @@ iframe{
     height: 600px;
     border-radius: 20px;
 }
+#logo{
+    width: 20%;
+    height: 20%;
+  }
+  p{
+    color: aliceblue;
+    padding: 10px;
+  }
+  li{
+color: aliceblue;
+padding: 10px;
+
+  }
+  .fundo{
+
+    background-color: rgba(22, 22, 28, 0.56);
+    
+  }
+  .navbar-nav li:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease-in-out; 
+  }
+  .navbar-nav li:not(:hover) {
+    transform: scale(1); 
+    transition: transform 0.150s ease-in-out; 
+  }

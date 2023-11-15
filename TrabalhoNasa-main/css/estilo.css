@@ -38,7 +38,17 @@ iframe{
     height: 20%;
   }
   p{
-
+padding: 10px;
 color: aliceblue;
 
   }
+  .fundo{
+
+    background-color: rgba(22, 22, 28, 0.56);
+    
+  }
+  .navbar-nav li:hover {
+    transform: scale(1.2); 
+    transition: transform 0.150s ease-in-out; 
+  }
+  
